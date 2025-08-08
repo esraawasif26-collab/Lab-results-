@@ -9,7 +9,7 @@ st.set_page_config(page_title="Lab Reports", layout="centered")
 if "patients" not in st.session_state:
     st.session_state.patients = {}
 
-st.title("🔬 برنامج تسجيل نتائج التحاليل")
+st.title("🔬 Qurtor lab ")
 
 # 🧾 إدخال بيانات المريض
 st.subheader("بيانات المريض:")
